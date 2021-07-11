@@ -17,7 +17,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" alignment="center" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="hT2-dL-4tH">
-                                <rect key="frame" x="20" y="312" width="350" height="220"/>
+                                <rect key="frame" x="20" y="392" width="350" height="60"/>
                                 <subviews>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tNT-jE-nAn">
                                         <rect key="frame" x="20" y="0.0" width="310" height="60"/>
@@ -33,42 +33,15 @@
                                             <segue destination="BYZ-38-t0r" kind="show" id="q24-uT-fOB"/>
                                         </connections>
                                     </button>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gUQ-t8-HbS">
-                                        <rect key="frame" x="20" y="80" width="310" height="60"/>
-                                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                        <constraints>
-                                            <constraint firstAttribute="height" constant="60" id="Ay1-Vm-zeW"/>
-                                        </constraints>
-                                        <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="30"/>
-                                        <state key="normal" title="Records">
-                                            <color key="titleColor" systemColor="systemIndigoColor"/>
-                                        </state>
-                                    </button>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uwJ-8p-ug4">
-                                        <rect key="frame" x="20" y="160" width="310" height="60"/>
-                                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                        <constraints>
-                                            <constraint firstAttribute="height" constant="60" id="cJS-r1-ce0"/>
-                                        </constraints>
-                                        <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="30"/>
-                                        <state key="normal" title="Settings">
-                                            <color key="titleColor" systemColor="systemIndigoColor"/>
-                                        </state>
-                                    </button>
                                 </subviews>
                                 <constraints>
                                     <constraint firstItem="tNT-jE-nAn" firstAttribute="top" secondItem="hT2-dL-4tH" secondAttribute="top" id="05v-cF-WF0"/>
-                                    <constraint firstItem="gUQ-t8-HbS" firstAttribute="leading" secondItem="hT2-dL-4tH" secondAttribute="leading" constant="20" id="5Hg-In-hx3"/>
                                     <constraint firstItem="tNT-jE-nAn" firstAttribute="leading" secondItem="hT2-dL-4tH" secondAttribute="leading" constant="20" id="You-7I-HY9"/>
-                                    <constraint firstAttribute="trailing" secondItem="uwJ-8p-ug4" secondAttribute="trailing" constant="20" id="bQz-BC-KtB"/>
                                     <constraint firstAttribute="trailing" secondItem="tNT-jE-nAn" secondAttribute="trailing" constant="20" id="cfO-su-fnr"/>
-                                    <constraint firstItem="uwJ-8p-ug4" firstAttribute="leading" secondItem="hT2-dL-4tH" secondAttribute="leading" constant="20" id="ju1-BF-j9R"/>
-                                    <constraint firstItem="uwJ-8p-ug4" firstAttribute="top" secondItem="gUQ-t8-HbS" secondAttribute="bottom" constant="20" id="tH7-xJ-FbR"/>
-                                    <constraint firstItem="gUQ-t8-HbS" firstAttribute="top" secondItem="tNT-jE-nAn" secondAttribute="bottom" constant="20" id="wKN-v2-80n"/>
                                 </constraints>
                             </stackView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="top" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="SPEEDNUMBER" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6Wi-ks-Pvh">
-                                <rect key="frame" x="0.0" y="175" width="390" height="37"/>
+                                <rect key="frame" x="0.0" y="255" width="390" height="37"/>
                                 <fontDescription key="fontDescription" type="system" weight="black" pointSize="31"/>
                                 <color key="textColor" systemColor="systemIndigoColor"/>
                                 <nil key="highlightedColor"/>
