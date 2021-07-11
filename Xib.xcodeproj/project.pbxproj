@@ -101,14 +101,9 @@
 		ECBBF85A267DC8DF001DCF9F /* Xib */ = {
 			isa = PBXGroup;
 			children = (
-				ECBBF85B267DC8DF001DCF9F /* AppDelegate.swift */,
-				ECBBF85D267DC8DF001DCF9F /* SceneDelegate.swift */,
-				ECBBF85F267DC8DF001DCF9F /* ViewController.swift */,
-				ECBBF861267DC8DF001DCF9F /* Main.storyboard */,
-				ECBBF864267DC8E1001DCF9F /* Assets.xcassets */,
-				ECBBF866267DC8E1001DCF9F /* LaunchScreen.storyboard */,
-				ECBBF869267DC8E1001DCF9F /* Info.plist */,
-				EC8D026D2681063000CDB6FF /* Game.swift */,
+				ECBC0955269AE29600A900C0 /* Application */,
+				ECBC0956269AE5BE00A900C0 /* Game */,
+				ECBC0954269AE23500A900C0 /* Resources */,
 			);
 			path = Xib;
 			sourceTree = "<group>";
@@ -129,6 +124,35 @@
 				ECBBF87F267DC8E1001DCF9F /* Info.plist */,
 			);
 			path = XibUITests;
+			sourceTree = "<group>";
+		};
+		ECBC0954269AE23500A900C0 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				ECBBF866267DC8E1001DCF9F /* LaunchScreen.storyboard */,
+				ECBBF864267DC8E1001DCF9F /* Assets.xcassets */,
+				ECBBF869267DC8E1001DCF9F /* Info.plist */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		ECBC0955269AE29600A900C0 /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				ECBBF85B267DC8DF001DCF9F /* AppDelegate.swift */,
+				ECBBF85D267DC8DF001DCF9F /* SceneDelegate.swift */,
+			);
+			path = Application;
+			sourceTree = "<group>";
+		};
+		ECBC0956269AE5BE00A900C0 /* Game */ = {
+			isa = PBXGroup;
+			children = (
+				ECBBF85F267DC8DF001DCF9F /* ViewController.swift */,
+				ECBBF861267DC8DF001DCF9F /* Main.storyboard */,
+				EC8D026D2681063000CDB6FF /* Game.swift */,
+			);
+			path = Game;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -442,7 +466,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = NUMRL3MBS4;
-				INFOPLIST_FILE = Xib/Info.plist;
+				INFOPLIST_FILE = Xib/Resources/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -461,7 +485,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = NUMRL3MBS4;
-				INFOPLIST_FILE = Xib/Info.plist;
+				INFOPLIST_FILE = Xib/Resources/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
